@@ -1,0 +1,14 @@
+{
+  "verdict": "VERIFIED",
+  "dq_exact_rel_to_target": 0.3236942921927381,
+  "chain_rel_to_theory": 0.08420969778132648,
+  "competitor_rel_to_target": {
+    "DQ+const": 0.7376315795713135,
+    "LR+WS": 0.32369429219273843,
+    "CT": 0.9757433817499098
+  },
+  "M": 200,
+  "B": 16,
+  "D": 5,
+  "twostage_works": true
+}

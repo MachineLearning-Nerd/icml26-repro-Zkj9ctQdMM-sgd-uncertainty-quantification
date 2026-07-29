@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="650" viewBox="0 0 1200 650" role="img" aria-labelledby="title desc">
+<title id='title'>CT sensitivity across protocol choices</title>
+<desc id='desc'>CT sensitivity across protocol choices generated from outputs/c5_falsification.json</desc>
+<rect width='1200' height='650' fill='#fbfcfe'/>
+<style>text{font-family:Inter,Arial,sans-serif;fill:#172033}.title{font-size:28px;font-weight:700}.sub{font-size:17px;fill:#566176}.label{font-size:16px}.small{font-size:14px;fill:#566176}.value{font-size:15px;font-weight:700}</style>
+<text x='55.0' y='52.0' class='title' text-anchor='start'>CT stays finite across every admissible posterior-scale protocol</text>
+<text x='55.0' y='82.0' class='sub' text-anchor='start'>Only the unscaled target—rejected because it also destabilizes DQ+exact—changes the conclusion.</text>
+<text x='637.5' y='120.0' class='label' text-anchor='middle'>B=16</text>
+<text x='912.5' y='120.0' class='label' text-anchor='middle'>B=50</text>
+<text x='55.0' y='182.0' class='label' text-anchor='start'>Raw y + intercept</text>
+<rect x='508' y='143' width='259' height='66' rx='9' fill='#16846c' opacity='0.14'/>
+<circle cx='555' cy='176' r='11' fill='#16846c'/>
+<text x='582.0' y='182.0' class='value' text-anchor='start'>ρ=0.896 stable</text>
+<rect x='783' y='143' width='259' height='66' rx='9' fill='#16846c' opacity='0.14'/>
+<circle cx='830' cy='176' r='11' fill='#16846c'/>
+<text x='857.0' y='182.0' class='value' text-anchor='start'>ρ=0.703 stable</text>
+<text x='55.0' y='264.0' class='label' text-anchor='start'>Centered y</text>
+<rect x='508' y='225' width='259' height='66' rx='9' fill='#16846c' opacity='0.14'/>
+<circle cx='555' cy='258' r='11' fill='#16846c'/>
+<text x='582.0' y='264.0' class='value' text-anchor='start'>ρ=0.896 stable</text>
+<rect x='783' y='225' width='259' height='66' rx='9' fill='#16846c' opacity='0.14'/>
+<circle cx='830' cy='258' r='11' fill='#16846c'/>
+<text x='857.0' y='264.0' class='value' text-anchor='start'>ρ=0.702 stable</text>
+<text x='55.0' y='346.0' class='label' text-anchor='start'>Standardized y</text>
+<rect x='508' y='307' width='259' height='66' rx='9' fill='#16846c' opacity='0.14'/>
+<circle cx='555' cy='340' r='11' fill='#16846c'/>
+<text x='582.0' y='346.0' class='value' text-anchor='start'>ρ=0.896 stable</text>
+<rect x='783' y='307' width='259' height='66' rx='9' fill='#16846c' opacity='0.14'/>
+<circle cx='830' cy='340' r='11' fill='#16846c'/>
+<text x='857.0' y='346.0' class='value' text-anchor='start'>ρ=0.702 stable</text>
+<text x='55.0' y='428.0' class='label' text-anchor='start'>Without replacement</text>
+<rect x='508' y='389' width='259' height='66' rx='9' fill='#16846c' opacity='0.14'/>
+<circle cx='555' cy='422' r='11' fill='#16846c'/>
+<text x='582.0' y='428.0' class='value' text-anchor='start'>ρ=0.896 stable</text>
+<rect x='783' y='389' width='259' height='66' rx='9' fill='#16846c' opacity='0.14'/>
+<circle cx='830' cy='422' r='11' fill='#16846c'/>
+<text x='857.0' y='428.0' class='value' text-anchor='start'>ρ=0.697 stable</text>
+<text x='55.0' y='510.0' class='label' text-anchor='start'>Unscaled target (rejected)</text>
+<rect x='508' y='471' width='259' height='66' rx='9' fill='#c84242' opacity='0.14'/>
+<circle cx='555' cy='504' r='11' fill='#c84242'/>
+<text x='582.0' y='510.0' class='value' text-anchor='start'>ρ=5798 diverges</text>
+<rect x='783' y='471' width='259' height='66' rx='9' fill='#c84242' opacity='0.14'/>
+<circle cx='830' cy='504' r='11' fill='#c84242'/>
+<text x='857.0' y='510.0' class='value' text-anchor='start'>ρ=24917 diverges</text>
+<text x='775.0' y='600.0' class='small' text-anchor='middle'>Green = stable (ρ&lt;1) · red = divergent (ρ≥1)</text>
+</svg>

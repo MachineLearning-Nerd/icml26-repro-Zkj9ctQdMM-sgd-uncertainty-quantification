@@ -1,0 +1,36 @@
+{
+  "verdict": "VERIFIED",
+  "symbolic": {
+    "eq15_symbolically_derived": true,
+    "sqrt_lambda_rate_symbolically_derived": true
+  },
+  "exact_formula_matches_MC": true,
+  "fitted_exponent": -0.4798575665923515,
+  "target_exponent": 0.5,
+  "Cv_finite": true,
+  "control_exponent": -0.1134560353212096,
+  "control_ok": true,
+  "lambda_rows": [
+    {
+      "lam": 1.0265331845791745,
+      "rel_err": 0.02091803455479866,
+      "C_v": 0.020645926619746756
+    },
+    {
+      "lam": 0.5132665922895873,
+      "rel_err": 0.026288450726139726,
+      "C_v": 0.03669386792929717
+    },
+    {
+      "lam": 0.25663329614479363,
+      "rel_err": 0.038667555493157243,
+      "C_v": 0.07632911315691189
+    },
+    {
+      "lam": 0.12831664807239682,
+      "rel_err": 0.0557397955813766,
+      "C_v": 0.15560511486782425
+    }
+  ],
+  "note": "sqrt(lambda) rate established by symbolic derivation; numerical decay is MC-noise-limited."
+}
