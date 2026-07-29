@@ -2,7 +2,17 @@
   "paper": "Zkj9ctQdMM",
   "tests_passed": true,
   "publication_gate_passed": true,
-  "claims_verified": 4,
+  "claims_verified": 5,
+  "claims_falsified": 1,
+  "target_claim": 5,
+  "target_status": "FALSIFIED",
+  "falsification_checks_passed": 8,
+  "falsification_checks_total": 8,
   "claims_total": 6,
-  "arxiv": "2606.00293"
+  "arxiv": "2606.00293",
+  "formal_compute": "Hugging Face cpu-upgrade",
+  "gpu_used": false,
+  "release_validation": "passed",
+  "release_validation_duration": "17m52s",
+  "fresh_clone_validation": "passed"
 }

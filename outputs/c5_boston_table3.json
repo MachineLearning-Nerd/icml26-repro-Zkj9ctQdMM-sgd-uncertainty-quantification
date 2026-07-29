@@ -1,0 +1,134 @@
+{
+  "verdict": "FALSIFIED",
+  "falsification_checks": {
+    "A_regime_reproduced": true,
+    "B_ct_does_not_diverge": true,
+    "C_dq_exact_accurate": true,
+    "D_lrws_diverges": true,
+    "E_detector_control": true,
+    "F_wellspec_control": true,
+    "G_crosscheck": true,
+    "H_ct_robust_across_variants": true
+  },
+  "primary_variant": "icpt-post",
+  "paper_table3_log": {
+    "16": {
+      "Posterior": 0.358,
+      "CT": 0.247,
+      "LR+WS": 923000000.0,
+      "DQ+exact": 0.337
+    },
+    "50": {
+      "Posterior": 0.358,
+      "CT": 0.589,
+      "LR+WS": 14000000.0,
+      "DQ+exact": 0.352
+    }
+  },
+  "primary_summary": {
+    "16": {
+      "DQ+exact": {
+        "rho": 0.9056857430272348,
+        "exact_err": 0.015249801133863282,
+        "sim_median": 0.040538751712903776,
+        "diverged": false
+      },
+      "DQ+const": {
+        "rho": 3.1561552919873526,
+        "exact_err": Infinity,
+        "sim_median": Infinity,
+        "diverged": true
+      },
+      "LR+WS": {
+        "rho": 1.5639314668272568,
+        "exact_err": Infinity,
+        "sim_median": 62603.860101978884,
+        "diverged": true
+      },
+      "CT": {
+        "rho": 0.8964100016720975,
+        "exact_err": 0.07296490076968083,
+        "sim_median": 0.0768418977337601,
+        "diverged": false
+      }
+    },
+    "50": {
+      "DQ+exact": {
+        "rho": 0.7374893450613373,
+        "exact_err": 0.01524980113386326,
+        "sim_median": 0.024001589085922505,
+        "diverged": false
+      },
+      "DQ+const": {
+        "rho": 2.918080884654732,
+        "exact_err": Infinity,
+        "sim_median": Infinity,
+        "diverged": true
+      },
+      "LR+WS": {
+        "rho": 1.7073442987534735,
+        "exact_err": Infinity,
+        "sim_median": 19580.708751076956,
+        "diverged": true
+      },
+      "CT": {
+        "rho": 0.7028400203989542,
+        "exact_err": 0.15476198572158367,
+        "sim_median": 0.15516828060009458,
+        "diverged": false
+      }
+    }
+  },
+  "ct_across_variants": {
+    "icpt-post": {
+      "16": {
+        "rho": 0.8964100016720975,
+        "exact": 0.07296490076968083,
+        "diverged": false
+      },
+      "50": {
+        "rho": 0.7028400203989542,
+        "exact": 0.15476198572158367,
+        "diverged": false
+      }
+    },
+    "ceny-post": {
+      "16": {
+        "rho": 0.8960277519037985,
+        "exact": 0.07187610448381225,
+        "diverged": false
+      },
+      "50": {
+        "rho": 0.7016454898730207,
+        "exact": 0.1535250936217965,
+        "diverged": false
+      }
+    },
+    "stdy-post": {
+      "16": {
+        "rho": 0.8960277519037991,
+        "exact": 0.07187610448381301,
+        "diverged": false
+      },
+      "50": {
+        "rho": 0.7016454898730207,
+        "exact": 0.15352509362179675,
+        "diverged": false
+      }
+    },
+    "icpt-unscaled": {
+      "16": {
+        "rho": 5798.231188117352,
+        "exact": Infinity,
+        "diverged": true
+      },
+      "50": {
+        "rho": 24917.347462866746,
+        "exact": Infinity,
+        "diverged": true
+      }
+    }
+  },
+  "provenance": "HF run 95bc366e (cpu-upgrade), branch orx/claim5-falsification-full-boston@8bd80fe, exit 0",
+  "note": "Registered claim FALSIFIED: the paper's own Table 3 and this independent full-Boston replay both show CT finite (only LR+WS/const-noise diverge). Raw evidence: outputs/c5_falsification.json; verifier: repro/src/check_claim5_falsification.py."
+}

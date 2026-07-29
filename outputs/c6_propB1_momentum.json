@@ -1,0 +1,39 @@
+{
+  "verdict": "VERIFIED",
+  "symbolic": {
+    "momentum_kappa0_reduces_to_eq15": true,
+    "momentum_augmented_matches_nonmom": true
+  },
+  "kappa_rows": [
+    {
+      "kappa": 0.5,
+      "rel_err_to_nonmom": 0.9929844606404059
+    },
+    {
+      "kappa": 0.2,
+      "rel_err_to_nonmom": 0.24780530824070277
+    },
+    {
+      "kappa": 0.1,
+      "rel_err_to_nonmom": 0.11004625838779733
+    },
+    {
+      "kappa": 0.05,
+      "rel_err_to_nonmom": 0.052102930599661625
+    },
+    {
+      "kappa": 0.02,
+      "rel_err_to_nonmom": 0.02019708902364825
+    },
+    {
+      "kappa": 0.01,
+      "rel_err_to_nonmom": 0.009995494326484933
+    },
+    {
+      "kappa": 0.0,
+      "rel_err_to_nonmom": 5.842136503081842e-16
+    }
+  ],
+  "fitted_exponent": 1.1525793342810273,
+  "limit_ok": true
+}
