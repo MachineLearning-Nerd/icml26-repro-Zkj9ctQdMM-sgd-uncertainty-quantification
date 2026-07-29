@@ -1,0 +1,31 @@
+{
+  "verdict": "VERIFIED",
+  "symbolic": {
+    "eq16_symbolically_derived": true
+  },
+  "cases": [
+    {
+      "N": 800,
+      "D": 4,
+      "B": 8,
+      "rel_err_formula_vs_MC": 0.016990475334077885,
+      "rel_diff_exact_vs_constnoise": 0.04605015068762541
+    },
+    {
+      "N": 800,
+      "D": 4,
+      "B": 32,
+      "rel_err_formula_vs_MC": 0.021542244966638223,
+      "rel_diff_exact_vs_constnoise": 0.04593219496240017
+    },
+    {
+      "N": 1500,
+      "D": 6,
+      "B": 16,
+      "rel_err_formula_vs_MC": 0.031944559756234364,
+      "rel_diff_exact_vs_constnoise": 0.0784776567452276
+    }
+  ],
+  "mc_ok": true,
+  "exact_not_constant": true
+}

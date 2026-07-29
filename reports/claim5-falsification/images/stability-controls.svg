@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="650" viewBox="0 0 1200 650" role="img" aria-labelledby="title desc">
+<title id='title'>Exact second-moment stability boundary and controls</title>
+<desc id='desc'>Exact second-moment stability boundary and controls generated from outputs/c5_falsification.json</desc>
+<rect width='1200' height='650' fill='#fbfcfe'/>
+<style>text{font-family:Inter,Arial,sans-serif;fill:#172033}.title{font-size:28px;font-weight:700}.sub{font-size:17px;fill:#566176}.label{font-size:16px}.small{font-size:14px;fill:#566176}.value{font-size:15px;font-weight:700}</style>
+<text x='55.0' y='52.0' class='title' text-anchor='start'>Exact stability test separates finite chains from divergent ones</text>
+<text x='55.0' y='82.0' class='sub' text-anchor='start'>ρ(T) &lt; 1 is stable. The detector crosses the boundary; the well-specified control returns below it.</text>
+<line x1='360.4' y1='115' x2='360.4' y2='565' stroke='#d9deea'/>
+<text x='360.4' y='600.0' class='small' text-anchor='middle'>0.6</text>
+<line x1='421.2' y1='115' x2='421.2' y2='565' stroke='#d9deea'/>
+<text x='421.2' y='600.0' class='small' text-anchor='middle'>1.0</text>
+<line x1='573.1' y1='115' x2='573.1' y2='565' stroke='#d9deea'/>
+<text x='573.1' y='600.0' class='small' text-anchor='middle'>3.2</text>
+<line x1='725.0' y1='115' x2='725.0' y2='565' stroke='#d9deea'/>
+<text x='725.0' y='600.0' class='small' text-anchor='middle'>10.0</text>
+<line x1='1028.8' y1='115' x2='1028.8' y2='565' stroke='#d9deea'/>
+<text x='1028.8' y='600.0' class='small' text-anchor='middle'>100.0</text>
+<line x1='421.2' y1='105' x2='421.2' y2='565' stroke='#c84242' stroke-width='3'/>
+<text x='429.2' y='118.0' class='small' text-anchor='start' fill='#c84242'>ρ=1 boundary</text>
+<text x='55.0' y='141.0' class='label' text-anchor='start'>DQ+exact</text>
+<line x1='330' y1='135' x2='1120' y2='135' stroke='#d9deea'/>
+<circle cx='408.1' cy='126' r='8' fill='#3166c9'/>
+<text x='421.1' y='131.0' class='small' text-anchor='start'>0.906</text>
+<circle cx='381.0' cy='144' r='8' fill='#7257b8'/>
+<text x='394.0' y='149.0' class='small' text-anchor='start'>0.737</text>
+<text x='55.0' y='216.0' class='label' text-anchor='start'>CT</text>
+<line x1='330' y1='210' x2='1120' y2='210' stroke='#d9deea'/>
+<circle cx='406.7' cy='201' r='8' fill='#3166c9'/>
+<text x='419.7' y='206.0' class='small' text-anchor='start'>0.896</text>
+<circle cx='374.6' cy='219' r='8' fill='#7257b8'/>
+<text x='387.6' y='224.0' class='small' text-anchor='start'>0.703</text>
+<text x='55.0' y='291.0' class='label' text-anchor='start'>LR+WS</text>
+<line x1='330' y1='285' x2='1120' y2='285' stroke='#d9deea'/>
+<circle cx='480.2' cy='276' r='8' fill='#3166c9'/>
+<text x='493.2' y='281.0' class='small' text-anchor='start'>1.56</text>
+<circle cx='491.7' cy='294' r='8' fill='#7257b8'/>
+<text x='504.7' y='299.0' class='small' text-anchor='start'>1.71</text>
+<text x='55.0' y='366.0' class='label' text-anchor='start'>DQ+const</text>
+<line x1='330' y1='360' x2='1120' y2='360' stroke='#d9deea'/>
+<circle cx='572.8' cy='351' r='8' fill='#3166c9'/>
+<text x='585.8' y='356.0' class='small' text-anchor='start'>3.16</text>
+<circle cx='562.5' cy='369' r='8' fill='#7257b8'/>
+<text x='575.5' y='374.0' class='small' text-anchor='start'>2.92</text>
+<text x='55.0' y='441.0' class='label' text-anchor='start'>CT ×50 detector</text>
+<line x1='330' y1='435' x2='1120' y2='435' stroke='#d9deea'/>
+<circle cx='942.3' cy='426' r='8' fill='#3166c9'/>
+<text x='955.3' y='431.0' class='small' text-anchor='start'>51.9</text>
+<circle cx='1120.0' cy='444' r='8' fill='#7257b8'/>
+<text x='1133.0' y='449.0' class='small' text-anchor='start'>226</text>
+<text x='55.0' y='516.0' class='label' text-anchor='start'>LR+WS well-specified</text>
+<line x1='330' y1='510' x2='1120' y2='510' stroke='#d9deea'/>
+<circle cx='406.2' cy='501' r='8' fill='#3166c9'/>
+<text x='419.2' y='506.0' class='small' text-anchor='start'>0.893</text>
+<circle cx='374.4' cy='519' r='8' fill='#7257b8'/>
+<text x='387.4' y='524.0' class='small' text-anchor='start'>0.702</text>
+<circle cx='410' cy='623' r='7' fill='#3166c9'/>
+<text x='425.0' y='628.0' class='small' text-anchor='start'>B=16</text>
+<circle cx='505' cy='623' r='7' fill='#7257b8'/>
+<text x='520.0' y='628.0' class='small' text-anchor='start'>B=50</text>
+</svg>
