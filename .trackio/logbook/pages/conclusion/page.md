@@ -20,6 +20,7 @@ The contradiction is the CT conjunct. We do not alter the claim to a nearby stat
 - Preprocessing and sampling sensitivities.
 - Eight-condition deterministic checker that exits nonzero if the falsification is absent.
 - Immutable HF `cpu-upgrade` release validation at commit `94def38`: all checks passed, claims 1–4 and 6 remained VERIFIED, exit 0.
+- Fresh-clone checker, deterministic figure regeneration, artifact integrity, Python compilation, and strict marimo validation all passed.
 
 ## Limits
 
