@@ -9,4 +9,5 @@ Claim 5 status: **FALSIFIED as registered**.
 - Eight of eight Claim 5 checks pass in the evidence-bearing run.
 - Claims 1–4 and 6 remain unchanged in the cumulative suite.
 - The `claim5-release-validation` child passed in 17m52s with exit 0.
-- Publication remains gated only on the fresh-clone checks.
+- Fresh-clone checker, deterministic figure regeneration, artifact integrity, Python compilation, and strict marimo validation pass.
+- Publication gate: **PASSED**.

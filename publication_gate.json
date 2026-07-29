@@ -13,5 +13,6 @@
   "formal_compute": "Hugging Face cpu-upgrade",
   "gpu_used": false,
   "release_validation": "passed",
-  "release_validation_duration": "17m52s"
+  "release_validation_duration": "17m52s",
+  "fresh_clone_validation": "passed"
 }
