@@ -1,18 +1,54 @@
 {
-  "paper": "Zkj9ctQdMM",
-  "tests_passed": true,
-  "publication_gate_passed": true,
-  "claims_verified": 5,
-  "claims_falsified": 1,
-  "target_claim": 5,
-  "target_status": "FALSIFIED",
-  "falsification_checks_passed": 8,
-  "falsification_checks_total": 8,
+  "schema_version": 2,
+  "paper": {
+    "openreview": "Zkj9ctQdMM",
+    "arxiv": "2606.00293",
+    "title": "Accurate Large-sample Uncertainty Quantification using Stochastic Gradient Markov Chain Monte Carlo",
+    "authors": ["Yu Wang", "Jie Ding", "Jonathan H. Huggins"]
+  },
+  "overall_status": "INCONCLUSIVE",
+  "publication_gate_passed": false,
+  "scoped_reproduction_gate_passed": true,
+  "paper_claims_verified": 0,
   "claims_total": 6,
-  "arxiv": "2606.00293",
-  "formal_compute": "Hugging Face cpu-upgrade",
-  "gpu_used": false,
-  "release_validation": "passed",
-  "release_validation_duration": "17m52s",
-  "fresh_clone_validation": "passed"
+  "claim_statuses": {
+    "c1_thm4.1_sqrt_lambda": "VERIFIED_CONDITIONAL",
+    "c2_thm4.3_exact_noise": "VERIFIED_CONDITIONAL",
+    "c3_thm4.5_W2_bound": "VERIFIED_CONDITIONAL",
+    "c4_algorithm1_two_stage": "REPRODUCED_SCOPED",
+    "c5_boston_table3": "FALSIFIED_AS_REGISTERED",
+    "c6_propB1_momentum": "VERIFIED_CONDITIONAL"
+  },
+  "raw_evaluator": {
+    "path": "outputs/verdict.json",
+    "resolved": 6,
+    "verified": 5,
+    "falsified": 1,
+    "blocked": 0
+  },
+  "claim5_gate": {
+    "checks_passed": 8,
+    "checks_total": 8,
+    "data": "506 Boston rows, 13 features plus intercept",
+    "seed": 20260729,
+    "chains_per_cell": 30,
+    "burn_in": 15000,
+    "measured_iterations": 60000,
+    "formal_compute": "Hugging Face cpu-upgrade",
+    "gpu_used": false,
+    "target_status": "FALSIFIED_AS_REGISTERED"
+  },
+  "release_validation": {
+    "status": "passed",
+    "duration": "17m52s",
+    "fresh_clone": "passed"
+  },
+  "interpretation": [
+    "The raw evaluator labels are preserved for reproducibility.",
+    "Claims 1 and 3 have Monte Carlo-noise-limited fitted rates and are reported as conditional.",
+    "Claim 4 is a scoped algorithmic reproduction, not a universal performance claim.",
+    "Claim 5 is falsified only for the broad registered wording; the narrower LR+WS instability observation is not rejected.",
+    "No paper-level publication claim is made without additional assumption-wide verification."
+  ],
+  "maintainer": "MachineLearning-Nerd"
 }

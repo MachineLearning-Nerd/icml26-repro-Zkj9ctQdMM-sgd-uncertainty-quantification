@@ -90,6 +90,6 @@ Formal evidence was generated on Hugging Face `cpu-upgrade` with the fixed comma
 pip install --quiet numpy==2.5.1 scipy==1.18.0 sympy==1.14.0 && python repro/src/verify_sgduq.py
 ```
 
-Relevant experiment branches: [`faithful-pip-repro`](https://github.com/MachineLearning-Nerd/icml26-repro-Zkj9ctQdMM-sgd-uncertainty-quantification/tree/orx/faithful-pip-repro), [`claim5-falsification-full-boston`](https://github.com/MachineLearning-Nerd/icml26-repro-Zkj9ctQdMM-sgd-uncertainty-quantification/tree/orx/claim5-falsification-full-boston), and [`claim5-release-validation`](https://github.com/MachineLearning-Nerd/icml26-repro-Zkj9ctQdMM-sgd-uncertainty-quantification/tree/orx/claim5-release-validation).
+Relevant experiment stages and their source commit IDs are recorded in [`BRANCH_AUDIT.md`](../../BRANCH_AUDIT.md). The historical `orx/*` branches are intentionally removed from the final remote after their roles are documented; the evidence itself remains committed here.
 
 Machine-readable evidence: [`outputs/c5_falsification.json`](../../outputs/c5_falsification.json). Deterministic gate: [`repro/src/check_claim5_falsification.py`](../../repro/src/check_claim5_falsification.py). Canonical evaluator page: [`.trackio/logbook/pages/claim-5/page.md`](../../.trackio/logbook/pages/claim-5/page.md).
